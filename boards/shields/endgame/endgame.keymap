@@ -8,11 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-#include "base_endgame.h"
 
-&caps_word {
-    continue-list = <UNDERSCORE MINUS BSPC DEL>;
-};
 
 
 / {
@@ -33,50 +29,10 @@
             label = "APT";
 
             bindings = <
-                &kp V          &kp W          &kp F          &kp P          &kp B          &kp J          &kp L          &kp DE_Y       &kp U          &kp DE_Z
-                &hl LCTRL R    &hl LALT S     &hl LGUI T     &hl LSHFT H    &hl RALT K     &hr RALT X     &hr RSHFT N    &hr RGUI A     &hr LALT I     &hr RCTRL O
-                &kp Q          &kp C          &kp G          &kp D          &kp Z          &kp Z          &kp M          &kp DE_COMMA   &kp DE_DOT     &kp DE_MINUS
-                &kp N1                                    &my_lt DE ESC  &my_lt NAV SPACE  &my_lt SYM E  &my_lt NUM TAB                                &kp N2
-            >;
-        };
-        numbers {
-            label = "NUM";
-
-            bindings = <
-                &kp F1         &kp F2         &kp F3         &kp F4         &kp DE_STAR        &kp DE_PLUS     &kp N1         &kp N2         &kp N3     &kp DE_MINUS
-                &hl LCTRL F5   &hl LALT F6    &hl LGUI F7    &hl LSHFT F8   &hl RALT DE_FSLH   &kp N0          &kp N4         &kp N5         &kp N6     &kp DE_DOT
-                &kp F9         &kp F10        &kp F11        &kp F12        &trans             &kp DE_STAR     &kp N7         &kp N8         &kp N9     &kp DE_FSLH
-                &trans                                       &trans         &trans             &trans          &kp N0                                   &trans
-            >;
-        };
-        navigation {
-            label = "NAV";
-
-            bindings = <
-                &kp COPY       &kp INSERT     &kp UP         &kp BSPC        &kp C_VOL_DN   &kp C_VOL_UP   &kp BSPC       &kp DEL        &kp INSERT     &trans
-                &kp LCTRL      &hl LALT LEFT  &hl LGUI DOWN  &hl LSHFT RIGHT &kp C_MUTE     &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT      &kp TAB
-                &trans         &kp HOME       &kp PG_DN      &kp END         &trans         &trans         &kp HOME       &kp PG_UP      &kp END        &trans
-                &trans                                       &trans          &trans         &trans         &trans                                       &trans
-            >;
-        };
-        symbols {
-            label = "SYM";
-
-            bindings = <
-                &kp DE_ACUTE   &kp DE_GRAVE   &kp DE_LBKT    &kp DE_RBKT      &kp DE_QMARK   &kp DE_EXCL     &kp DE_APOS    &kp DE_DQT     &kp DE_CARET   &kp DE_HASH
-                &kp DE_BSLH    &kp DE_AT      &kp DE_LPAR    &kp DE_RPAR      &kp DE_TILDE   &kp DE_EQUAL    &kp DE_PLUS    &kp DE_MINUS   &kp DE_STAR    &kp DE_FSLH
-                &trans         &kp DE_TILDE   &kp DE_LBRC    &kp DE_RBRC      &trans         &kp DE_QMARK    &kp DE_LT      &kp DE_GT      &kp DE_PIPE    &trans
-                &trans                                       &trans           &trans         &trans          &trans                                       &trans
-            >;
-        };
-        function {
-            label = "DE";
-
-            bindings = <
-                &trans         &kp DE_AT      &kp DE_EURO    &trans         &trans         &trans       &trans        &trans        &kp DE_UE     &trans
-                &bootloader    &kp DE_SZ      &trans         &trans         &trans         &trans       &trans        &kp DE_AE     &trans        &kp DE_OE
-                &trans         &trans         &trans         &trans         &trans         &trans       &trans        &trans        &trans        &trans
-                &trans                                       &trans         &trans         &trans       &trans                                    &trans
+                &kp N3    &kp V    &kp W     &kp F     &kp P    &kp B     &kp J     &kp L    &kp Y     &kp U     &kp Z     &kp N6
+                &kp N4    &kp R    &kp S     &kp T     &kp H    &kp K     &kp X     &kp N    &kp A     &kp I     &kp O     &kp N7
+                &kp N5    &kp Q    &kp C     &kp G     &kp D    &kp Z     &kp Z     &kp M    &kp COMMA &kp DOT   &kp MINUS &kp N8
+                &kp N1                                 &kp ESC  &kp SPACE &kp E     &kp TAB                                &kp N2
             >;
         };
 
