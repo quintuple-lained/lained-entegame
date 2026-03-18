@@ -172,7 +172,7 @@
 &mt LGUI RBKT    &kp Q           &kp W         &kp F       &kp P                &kp B        &kp J        &kp L                &kp U       &kp Y         &kp SEMI     &kp LBKT
 &mt LCTRL GRAVE  &mt LEFT_GUI A  &mt LSHIFT R  &mt LALT S  &mt RIGHT_CONTROL T  &kp G        &kp M        &mt RIGHT_CONTROL N  &mt LALT E  &mt RSHIFT I  &mt LMETA O  &mt RCTRL SQT
 &mt LALT MINUS   &kp Z           &kp X         &kp C       &kp D                &kp V        &kp K        &kp H                &kp COMMA   &kp DOT       &kp FSLH     &mt RALT BSLH
-                                               &lt 4 ESC   &mt LSHFT TAB        &lt 3 SPACE  &lt 3 ENTER  &mt RSHFT BSPC       &lt 4 DEL
+                                               &lt 3 ESC   &mt LSHFT TAB        &lt 4 SPACE  &lt 3 ENTER  &mt RSHFT BSPC       &lt 4 DEL
             >;
         };
 
